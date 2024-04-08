@@ -1,0 +1,106 @@
+body {
+    background-color: #E11364;
+}
+
+h1{
+    color: #FFFFFF;
+}
+h2 {
+    color: #FFFFFF;
+}
+
+h3 {
+    color: #BC105C;
+    text-align: end;
+    border-bottom: 2px dotted #BC105C;
+}
+
+p {
+    text-align: start;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    /* Esta propiedad creo que no la vimos, pero investigue y funciona :D */
+}
+
+ul{
+    text-align: start;
+}
+
+.titulo {
+    color: #FFFFFF;
+    background-color: #BC105C;
+    text-align: center;
+    margin: 30px 100px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+
+.contenido-principal {
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px 100px;
+    padding: 15px;
+    background-color: #BC105C;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+}
+
+.contenido-juego {
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px 1px;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+.footer {
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px 100px;
+    padding: 10px;
+    background-color: #E96093;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.web-link{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton{
+    background-color: #2C8F20;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    margin:5px auto;
+    display:block;
+    width:fit-content;
+    text-decoration: none;
+}
+.boton:hover{
+    background-color: #BC105C;
+}
+
+.miniaturas-imagenes{
+    display: inline-block;
+    max-width: 30%;
+    height: auto;
+    vertical-align: top;
+    margin:0;
+}

@@ -1,0 +1,98 @@
+body {
+    background-image: url(./public/imgs/back_gotic.webp);
+    background-color: #363232;
+    background-size: cover;
+    color: #FFF;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    color: #FFF;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    border-bottom: 2px solid #BC105C;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.titulo{
+    display: flexbox;
+    color: #BC105C;
+    background: linear-gradient(400deg, #717172, #252425);
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.contenido-principal, .footer {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(75, 57, 57, 0.8);
+    margin: 30px auto;
+    max-width: 60%;
+    text-align: justify;
+}
+
+.contenedor-juegos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contenido-juego {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.web-link {
+    text-decoration: none;
+    color: #BC105C;
+    font-weight: bold;
+}
+
+.web-link:hover {
+    text-decoration: underline;
+}
+
+.boton {
+    background-color: #631bd8;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #7c0cfc62;
+}
+
+.miniaturas-imagenes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
