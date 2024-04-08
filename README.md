@@ -2,7 +2,7 @@
 ## 71350 - Bootcamp FullStack Engineer
 ## Desafio 05
 ## Drive:
-## Repositorio GIT:
+## Repositorio GIT: https://github.com/GuidoDagostino/desafio05.git
 
 ## Para intercambiar los css
  * 1 - Descomentar css en main.js
