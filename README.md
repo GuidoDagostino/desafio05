@@ -1,8 +1,9 @@
 ## D´agostino Guido
 ## 71350 - Bootcamp FullStack Engineer
 ## Desafio 05
-## Drive:
+## Drive: https://drive.google.com/file/d/1TOWXkERFgria54y65PasK1zhiLujHhu6/view?usp=sharing
 ## Repositorio GIT: https://github.com/GuidoDagostino/desafio05.git
+## Netlify: desafio-005.netlify.app
 
 ## Para intercambiar los css
  * 1 - Descomentar css en main.js
