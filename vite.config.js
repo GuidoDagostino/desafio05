@@ -1,20 +1,20 @@
-import './css/estilos-1.css'
-/* import './css/estilos-2.css' */
+import { defineConfig } from 'vite';
 
-export default {
+export default defineConfig({
     server: {
         port: 2222
     },
-
+    css: {
+        output: './css'
+    },
     build: {
-
         emptyOutDir: true,
         rollupOptions: {
             input: {
-                mariokart: resolve('pages/mario_kart.html'),
-                mortalkombat: resolve('pages/mortal_kombat11.html'),
-                index: resolve('index.html')
+                mariokart: 'pages/mario_kart.html',
+                mortalkombat: 'pages/mortal_kombat11.html',
+                index: 'index.html'
             }
         }
     }
-}
+});
