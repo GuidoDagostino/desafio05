@@ -13,7 +13,7 @@ export default defineConfig({
             input: {
                 mariokart: 'pages/mario_kart.html',
                 mortalkombat: 'pages/mortal_kombat11.html',
-                index: 'index.html'
+                index: './index.html'
             }
         }
     }
