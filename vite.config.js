@@ -1,3 +1,6 @@
+import './css/estilos-1.css'
+/* import './css/estilos-2.css' */
+
 export default {
     server: {
         port: 2222
